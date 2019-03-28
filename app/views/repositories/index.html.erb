@@ -1,11 +1,7 @@
 <div class = "container">
   <h1>Repos</h1>
   <!-- List repositories and display username here! -->
-  <% @results.each do |result| %>
-    <%= result["name"] %>
-  <% end %>
-</div>
-<div class="container">
+   <strong><%= @username %></strong>
   <% @results.each do |result| %>
     <%= result["name"] %>
   <% end %>
